@@ -101,97 +101,10 @@ case 7:
     }
 
 
-}
-
-void three_eight(){
-    int a = 1;
-    long int b = 1;
-
-    while(a!=-1){
-        scanf("%d", &a);
-
-        if(a%2 == 0 && a%3 == 0){
-            b *= a;
-        }
-    }
-    printf("%d", b)   ;
-
-}
-
-void three_ten(){
-    int c,a = 1;
-    while(a >= 0){
-        scanf("%d", &a);
-        c+=1;
-
-    }
-    printf("%d", c);
-
-}
-void three_tweny_one(){
-    int c = 0;
-    float g;
-
-    for(int i = 0; i < 30; i++){
-        scanf("%f", &g);
-        if(g > 87.5)
-            c += 1;
-    }
-    printf("%d", c);
-
-
-}
-
-int five_eleven(int num){
-    int j = num;
-    int k = 0;
-    while(j>9){
-        k += j % 10;
-        j = j / 10;
-    }
-    k += j;
-    return k;
-
-}
-
-int four_two(int* j){
-    // lo aia li koh likro et kol atext az asiti et za
-    int *p = j;
-    int a, b, c1 = 0, c2 = 0; // c1 is for list, c2 is for num of elems
-    a = *p;
-    p += 1;
-    while(*p != NULL){
-        b = *p;
-        //explanation: i store the lengths of sorted sublists as numbers in an int
-        if(a <= b)
-            c1 += 1;
-        else
-            c1 *= 10;
-        a = b;
-        c2 += 1;
-        p +=1;
-    }
-
-    int l;
-
-    while(c1 > 0){
-        l = c1 % 10;
-        if(l > c2 / 2)
-            return 1;
-        c1 = c1 / 10;
-    }
-
-
-    return 0;
-}
-
-
-
 
 int main()
 {
     // za akol targil 1
-    /*
     printf("enter temp: ");
     scanf("%f", &temp);
     temp = (temp - 32) * 5 / 9;
@@ -208,13 +121,7 @@ int main()
     printf("%f", money(day, night, holi, sal));
 
     life();
-    */
-
-    //three_two();
-    //five_two();
-    int m[] = {1, 2, 3, 2};
-    //printf("%d", 4%10);
-    printf("%d", four_two_real(m));
+    
 
     return 0;
 }
