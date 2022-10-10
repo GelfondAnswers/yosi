@@ -33,6 +33,6 @@ int four_two(int* j){
 int main(){
   int m[] = {1, 2, 3, 2};
     //printf("%d", 4%10);
-  printf("%d", four_two_real(m));
+  printf("%d", four_two(m));
   retrun 0;
 }
