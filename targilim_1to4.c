@@ -62,7 +62,7 @@ int three_two(){
     return 0;
 }
 
-void four_two(){
+void two_four(){
 //ein li koah likroa piska
 
 }
@@ -70,7 +70,7 @@ void four_two(){
 
 
 
-void five_two(){
+void two_five(){
     int day, hours, salary;
     int regular;
     scanf("%d", &day);
@@ -154,7 +154,7 @@ int five_eleven(int num){
 
 }
 
-int four_two_real(int* j){
+int four_two(int* j){
     // lo aia li koh likro et kol atext az asiti et za
     int *p = j;
     int a, b, c1 = 0, c2 = 0; // c1 is for list, c2 is for num of elems
