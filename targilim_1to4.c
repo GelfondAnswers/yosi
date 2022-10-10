@@ -27,7 +27,7 @@ void life(){
     printf(" seconds");
 }
 
-int three_two(){
+int two_three(){
     int amount;
     int price;
     int type;
